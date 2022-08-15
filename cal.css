@@ -1,0 +1,105 @@
+*{
+    border-style: none;
+    user-select: none;
+    font-weight: bolder;
+}
+
+
+*:focus{
+    outline: none;
+}
+
+
+body{
+    
+}
+
+.bodyFake{
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    
+
+    
+}
+
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+
+#hesab{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-bottom: 0;
+    padding-left: 10px;
+    color: blue;
+}
+
+
+
+input{
+    background-color: #85FFBD;
+    user-select: none;
+    
+}
+
+
+
+input:active{
+    background-color: #5bac81;
+}
+
+
+
+#hesab:active{
+    background-color: #85FFBD;
+}
+
+
+.basem{
+    width: 300px;
+    height: 400px;
+    display: flex;
+ } 
+
+
+
+table{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+
+
+tr , td{
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .basem{
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
